@@ -1,0 +1,132 @@
+body{
+    padding: 8px;
+    margin: 8px;
+}
+
+.div1{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;   
+    gap: 2rem;   
+    padding: 5px;    
+    align-items: center;
+}
+
+.img1{
+    width: 60px;
+    height: 50px;
+}
+
+.a1{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.a2{
+    text-decoration: none;
+    color: rgb(21, 158, 212);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.p1{
+    color: white;
+}
+
+.div2{
+    background-image: url("./images/landing-splash.png");        
+    text-align: center;
+    padding: 120px; 
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.p2{
+    color: white;
+    font-weight: bold;
+}
+
+.p3{
+    color: grey;
+    font-size: 20px;
+}
+
+.h11{
+    font-weight: bold;
+}
+
+.divCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1px;
+    gap: 1px;   
+    padding-top: 10px;
+}
+
+.divCard{    
+    box-shadow: 5px 5px 10px rgb(221, 219, 219);
+    color: rgb(39, 38, 41);
+    border: 1px solid rgba(136, 101, 206, 0);
+    margin-top: 20px;
+    max-width: 400px;
+    height: 380px;
+    padding: 5px;
+}
+
+.imgProduct{
+    width: 100%;
+    height: 280px;   
+}
+
+.pProducts{
+    color: black;
+    font-size: 18px;
+}
+
+.divButton1{
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    border: 1px solid red;
+    color: red;
+    padding: 15px 80px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divButton2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 2rem;
+    padding: 200px;   
+    padding-top: 20px;
+    
+}
+
+.button2{
+    border: 1px solid blue;
+    color: blue;
+    padding: 25px 60px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 30px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 200px;
+}
